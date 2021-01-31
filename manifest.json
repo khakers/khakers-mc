@@ -1,0 +1,154 @@
+{
+  "minecraft": {
+    "version": "1.16.5",
+    "modLoaders": [
+      {
+        "id": "forge-36.0.13",
+        "primary": true
+      }
+    ]
+  },
+  "manifestType": "minecraftModpack",
+  "manifestVersion": 1,
+  "name": "Khakers Create",
+  "version": "v1.0.0",
+  "author": "",
+  "files": [
+    {
+      "projectID": 291788,
+      "fileID": 3118698,
+      "required": true
+    },
+    {
+      "projectID": 437717,
+      "fileID": 3183383,
+      "required": true
+    },
+    {
+      "projectID": 239197,
+      "fileID": 3185109,
+      "required": true
+    },
+    {
+      "projectID": 358191,
+      "fileID": 3172839,
+      "required": true
+    },
+    {
+      "projectID": 353434,
+      "fileID": 3181436,
+      "required": true
+    },
+    {
+      "projectID": 368718,
+      "fileID": 3183630,
+      "required": true
+    },
+    {
+      "projectID": 250398,
+      "fileID": 3169795,
+      "required": true
+    },
+    {
+      "projectID": 251407,
+      "fileID": 3066063,
+      "required": true
+    },
+    {
+      "projectID": 278141,
+      "fileID": 3164046,
+      "required": true
+    },
+    {
+      "projectID": 79287,
+      "fileID": 3033731,
+      "required": true
+    },
+    {
+      "projectID": 238551,
+      "fileID": 3185464,
+      "required": true
+    },
+    {
+      "projectID": 412082,
+      "fileID": 3183672,
+      "required": true
+    },
+    {
+      "projectID": 283644,
+      "fileID": 3172794,
+      "required": true
+    },
+    {
+      "projectID": 240630,
+      "fileID": 3166519,
+      "required": true
+    },
+    {
+      "projectID": 238222,
+      "fileID": 3157864,
+      "required": true
+    },
+    {
+      "projectID": 276951,
+      "fileID": 3156807,
+      "required": true
+    },
+    {
+      "projectID": 284324,
+      "fileID": 3184796,
+      "required": true
+    },
+    {
+      "projectID": 243121,
+      "fileID": 3186934,
+      "required": true
+    },
+    {
+      "projectID": 412363,
+      "fileID": 3166686,
+      "required": true
+    },
+    {
+      "projectID": 288885,
+      "fileID": 3171218,
+      "required": true
+    },
+    {
+      "projectID": 250363,
+      "fileID": 3128555,
+      "required": true
+    },
+    {
+      "projectID": 328085,
+      "fileID": 3167531,
+      "required": true
+    },
+    {
+      "projectID": 228525,
+      "fileID": 3170154,
+      "required": true
+    },
+    {
+      "projectID": 253449,
+      "fileID": 3033593,
+      "required": true
+    },
+    {
+      "projectID": 408759,
+      "fileID": 3060777,
+      "required": true
+    },
+    {
+      "projectID": 265917,
+      "fileID": 3122292,
+      "required": true
+    },
+    {
+      "projectID": 224712,
+      "fileID": 3124964,
+      "required": true
+    }
+  ],
+  "overrides": "overrides"
+}
