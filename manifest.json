@@ -3,7 +3,7 @@
     "version": "1.16.5",
     "modLoaders": [
       {
-        "id": "forge-36.0.13",
+        "id": "forge-36.0.42",
         "primary": true
       }
     ]
@@ -11,7 +11,7 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
   "name": "Khakers Create",
-  "version": "v1.0.0",
+  "version": "v1.1.0",
   "author": "",
   "files": [
     {
@@ -31,7 +31,7 @@
     },
     {
       "projectID": 239197,
-      "fileID": 3193282,
+      "fileID": 3208392,
       "required": true
     },
     {
@@ -46,12 +46,12 @@
     },
     {
       "projectID": 368718,
-      "fileID": 3183630,
+      "fileID": 3200491,
       "required": true
     },
     {
       "projectID": 250398,
-      "fileID": 3169795,
+      "fileID": 3200753,
       "required": true
     },
     {
@@ -71,12 +71,12 @@
     },
     {
       "projectID": 238551,
-      "fileID": 3185464,
+      "fileID": 3195857,
       "required": true
     },
     {
       "projectID": 412082,
-      "fileID": 3194294,
+      "fileID": 3206315,
       "required": true
     },
     {
@@ -91,7 +91,7 @@
     },
     {
       "projectID": 238222,
-      "fileID": 3188471,
+      "fileID": 3192904,
       "required": true
     },
     {
@@ -106,12 +106,12 @@
     },
     {
       "projectID": 243121,
-      "fileID": 3190442,
+      "fileID": 3208541,
       "required": true
     },
     {
       "projectID": 412363,
-      "fileID": 3166686,
+      "fileID": 3206951,
       "required": true
     },
     {
@@ -146,7 +146,7 @@
     },
     {
       "projectID": 265917,
-      "fileID": 3122292,
+      "fileID": 3202331,
       "required": true
     },
     {
