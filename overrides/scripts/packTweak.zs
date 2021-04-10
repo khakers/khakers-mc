@@ -35,6 +35,10 @@
 <recipetype:create:crushing>.addRecipe("crushed_glass_black", [<item:quark:black_shard> * 4], <item:minecraft:black_stained_glass>);
 <recipetype:create:crushing>.addRecipe("crushed_glass_dirt", [<item:quark:dirty_shard> * 4], <item:quark:dirty_glass>);
 
+//Farmers delight milk bottle filling
+<recipetype:create:filling>.addRecipe("milk_fill", <item:farmersdelight:milk_bottle>, <item:minecraft:glass_bottle>, <fluid:create:milk> * 250);
+
+
 //Limestone conversion
 stoneCutter.addRecipe("create_limestone_conversion", <item:create:limestone>, <item:quark:limestone>);
 stoneCutter.addRecipe("quark_limestone_conversion", <item:quark:limestone>, <item:create:limestone>);
@@ -43,7 +47,7 @@ stoneCutter.addRecipe("quark_limestone_conversion", <item:quark:limestone>, <ite
 craftingTable.removeRecipe(<item:supplementaries:turn_table>);
 mods.jei.JEI.hideItem(<item:supplementaries:turn_table>);
 //replace crank recipe with one in line with the create lever
-craftingTable.removeByName("supplementaries:crank_recipe");
+craftingTable.removeByName("supplementaries:crank");
 craftingTable.addShaped("crank_create_recipe", <item:supplementaries:crank>, [
     [<item:minecraft:air>, <item:minecraft:stick>],
     [<item:minecraft:cobblestone>, <item:create:andesite_casing>,<item:minecraft:cobblestone>]

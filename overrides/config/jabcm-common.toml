@@ -1,0 +1,5 @@
+#If false, all Rainbow Concrete blocks will be purely decorative and give no potion effects to players or mobs.
+rainbowConcreteEffects = false
+#Show a random quote during startup?
+showQuotes = false
+

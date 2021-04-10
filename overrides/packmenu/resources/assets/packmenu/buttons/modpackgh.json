@@ -1,0 +1,9 @@
+{
+	"x": -100,
+	"y": 106,
+	"width": 200,
+	"height": 20,
+	"langKey": "packmenu.gh_button",
+	"action": "OPEN_URL",
+	"data": "https://github.com/khakers/khakers-mc/releases"
+}

@@ -1,5 +1,6 @@
 {
 	"packmenu.discord_button": "Join the Discord",
-	"packmenu.server_join": "Join Server",
-	"packmenu.multiplayer": "MP"
+	"packmenu.server_join": "Join the Server",
+	"packmenu.multiplayer": "Multiplayer Menu",
+	"packmenu.gh_button":  "Modpack Releases"
 }
