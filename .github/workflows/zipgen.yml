@@ -17,7 +17,7 @@ jobs:
 
       # Run zip command and exlude all files in the .git dir and README.md
       - name: Generate modpack zip
-        run: zip -r Khakers.Create.zip . -x /.git/* README.md
+        run: zip -r Khakers.Create.zip . -x /.git/* README.md /.github./*
         
       - name: Upload zip to release
         uses: svenstaro/upload-release-action@v2
