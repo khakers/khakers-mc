@@ -1,0 +1,28 @@
+name: Build zip files
+
+on:
+  push:
+    tags:
+      - '*'
+
+jobs:
+  build:
+    # The type of runner that the job will run on
+    runs-on: ubuntu-latest
+
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - uses: actions/checkout@v2
+
+      # Run zip command and exlude all files in the .git dir and README.md
+      - name: Generate modpack zip
+        run: zip -r Khakers.Create.zip . -x /.git/* README.md
+        
+      - name: Upload zip to release
+        uses: svenstaro/upload-release-action@v2
+        with:
+          repo_token: ${{ secrets.GITHUB_TOKEN }}
+          file: Khakers.Create.zip
+          asset_name: Khakers.Create-${{ tag }}.zip
+          tag: ${{ github.ref }}
